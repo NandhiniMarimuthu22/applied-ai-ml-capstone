@@ -1,0 +1,53 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ─── Jupyter Notebook ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── Virtual Environment ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ─── Secrets — NEVER commit these ────────────────────────────────────────────
+.env
+.env.local
+*.env
+secrets.json
+config.json
+
+# ─── API Keys ─────────────────────────────────────────────────────────────────
+api_key.txt
+credentials.json
+
+# ─── OS Files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Model Files (large) ──────────────────────────────────────────────────────
+# Uncomment below if model files are too large
+# *.pkl
+# *.joblib
+# best_model.pkl
+
+# ─── Data Files (raw) ─────────────────────────────────────────────────────────
+# Keep cleaned_data.csv but ignore raw files
+adult.data
+adult.test
+adult.names
+*.csv.gz
+*.zip
